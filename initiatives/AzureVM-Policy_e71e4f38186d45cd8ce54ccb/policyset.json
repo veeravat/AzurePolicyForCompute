@@ -1,0 +1,113 @@
+{
+ "properties": {
+  "displayName": "AzureVM-Policy",
+  "policyType": "Custom",
+  "metadata": {
+   "category": "Compute",
+   "version": "1.0",
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/subscriptions/259b0d13-cd74-4711-bc0d-a85f5d194748"
+   },
+   "createdBy": "56e90ae0-420a-41e0-a992-fa57ac503ee7",
+   "createdOn": "2021-05-13T18:37:46.8233021Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Virtual machines should be migrated to new Azure Resource Manager resources_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1d84d5fb-01f6-4d12-ba4f-4a26081d403d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit VMs that do not use managed disks_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/06a78e20-9358-41c9-923c-fb736d382a4d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Deploy default Microsoft IaaSAntimalware extension for Windows Server_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2835b622-407b-4114-9198-6f7064cbe0dc",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Unattached disks should be encrypted_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2c89a2e5-7285-40fe-afe0-ae8654b92fb2",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Require automatic OS image patching on Virtual Machine Scale Sets_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/465f0161-0087-490a-9ad9-ad6217f4f43a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "OS and data disks should be encrypted with a customer-managed key_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/702dd420-7fcc-42c5-afe8-4026edd20fe0",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Managed disks should disable public network access_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/8405fdab-1faf-48aa-b702-999c9c172094",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft IaaSAntimalware extension should be deployed on Windows servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9b597639-28e4-48eb-b506-56b05d366257",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft Antimalware for Azure should be configured to automatically update protection signatures_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/c43e4a30-77cb-48ab-a4dd-93f175c63b57",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Managed disks should be double encrypted with both platform-managed and customer-managed keys_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ca91455f-eace-4f96-be59-e6e2c35b4816",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Allowed virtual machine size SKUs_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_d16ds_v4"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Disk access resources should use private link_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f39f5f49-4abf-44de-8c70-0756997bfb51",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Virtual machines and virtual machine scale sets should have encryption at host enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/fc4d8e41-e223-45ea-9bf5-eada37891d87",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": [
+   {
+    "name": "AzureVM",
+    "category": "vm"
+   }
+  ]
+ },
+ "id": "/subscriptions/259b0d13-cd74-4711-bc0d-a85f5d194748/providers/Microsoft.Authorization/policySetDefinitions/e71e4f38186d45cd8ce54ccb",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "e71e4f38186d45cd8ce54ccb"
+}
